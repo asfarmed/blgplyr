@@ -1,0 +1,496 @@
+﻿
+/*=============================================================
+    Authour URL: www.designbootstrap.com
+    
+    http://www.designbootstrap.com/
+
+    License: MIT
+
+    http://opensource.org/licenses/MIT
+
+    100% Free To use For Personal And Commercial Use.
+
+    IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
+   
+========================================================  */
+
+
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+
+@import url('https://fonts.googleapis.com/css?family=Cairo:200,300,400,600,700&subset=arabic');
+*	{
+	margin: 0;
+	padding: 0;
+	}
+	
+body {
+    font-family: 'Cairo', sans-serif;
+    line-height: 30px;
+}
+
+.set-radius-zero {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+
+.content-wrapper {
+    margin-top: 40px;
+    min-height: 600px;
+    padding-bottom: 60px;
+}
+
+.page-head-line {
+    font-weight: 900;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #005ba0;
+    text-transform: uppercase;
+    color: #005ba0;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+
+.progress {
+    height: 8px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+
+.social_icon1{
+    padding-top: 0px;
+    float: left;
+}
+.social_icon1 .fa{
+    width: 32px;
+
+    height: 32px;
+
+    line-height: 1.6;
+
+    text-align: center;
+	font-size: x-large;
+
+    margin-right: 5px;
+
+    cursor: pointer;
+
+    color: #fff;
+}
+.social_icon1 .fa:hover,.header-section .social_icon1 .fa:focus{
+    color: #005ba0;
+}
+
+.login-icon {
+    height: 60px;
+width: 60px;
+padding: 13px;
+border-radius: 50%;
+font-size: 30px;
+margin-bottom: 20px;
+color: #fff;
+text-align: center;
+cursor:pointer;
+background-color:#005ba0;
+-webkit-border-radius:50%;
+}
+/* =============================================================
+   HEADER SECTION STYLES
+ ============================================================ */
+header {
+    background-color: #3d3d3d;
+
+    color: #fff;
+
+    padding: 2px;
+
+    text-align: right;
+}
+
+
+/* =============================================================
+   LOGO SECTION STYLES
+ ============================================================ */
+.left-div {
+	float: left;
+	height: 93px;
+	width: auto;
+}
+
+.navbar-brand {
+  width: auto;
+  height: auto;
+	padding-right: 30px;
+}
+
+.navbar-brand > img {
+
+   width: auto;
+   height: 70px;
+   margin: 0 auto;
+
+
+   /* probably not needed anymore, but doesn't hurt */
+   -o-object-fit: contain;
+   object-fit: contain; 
+
+    }
+
+@media only screen and (max-width: 768px) {
+	
+.navbar-brand {
+	height: auto;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+}
+
+.navbar-brand > img {
+
+   width: auto;
+   height: 39px;
+   margin: 0 auto;
+
+
+   /* probably not needed anymore, but doesn't hurt */
+   -o-object-fit: contain;
+   object-fit: contain; 
+
+    }
+	
+}
+
+/* USER SETTINGS DIV */
+.user-settings-wrapper .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 15px 18px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background-color: #005ba0;
+    color: #fff;
+}
+
+.user-settings-wrapper {
+    margin-top: 10px;
+}
+
+    .user-settings-wrapper li {
+        display: inline-block;
+    }
+
+    .user-settings-wrapper .dropdown-settings {
+        width: 200px;
+        padding: 10px;
+    }
+
+    .user-settings-wrapper .nav > li > a:hover,.user-settings-wrapper .nav > li > a:focus {
+        text-decoration: none;
+        background-color: #005ba0!important;
+    }
+
+    .user-settings-wrapper img {
+        height: 64px;
+        width: 64px;
+        border: 1px solid #000000;
+    }
+
+    .user-settings-wrapper .dropdown-menu {
+        margin: 0px;
+        border-radius: 0px!important;
+        -webkit-border-radius: 0px!important;
+    }
+
+    .user-settings-wrapper .btn {
+        border-radius: 0px!important;
+        -webkit-border-radius: 0px!important;
+    }
+
+    .user-settings-wrapper .media-heading {
+        padding-top: 10px;
+    }
+
+/* MENU LINKS SECTION*/
+
+.menu-section {
+    background-color: #3D3D3D;
+}
+
+#menu-top a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 10px 10px 10px;
+    text-transform: uppercase;
+}
+
+.menu-top-active {
+
+    background-color: #005ba0;
+
+}
+
+
+
+.menu-section .nav > li > a:hover,.menu-section .nav > li > a:focus {
+
+    background-color: #005ba0!important;
+
+}
+
+
+
+.menu-section .dropdown-menu > li > a:hover,.menu-section .dropdown-menu > li > a:focus {
+
+    background-color: #005ba0!important;
+
+}
+
+.menu-section .dropdown-menu {
+    background-color: #3D3D3D!important;
+}
+
+
+
+.navbar-inverse {
+
+    background: #005ba0 url(https://go4kora.com/assetslive/img/back_originale_overlay.png) no-repeat bottom left;
+    border-color: transparent;
+	border: 0;
+	margin-bottom: 0px;
+
+}
+
+
+
+.navbar-toggle {
+
+    background-color: #005ba0;
+
+    border: 1px solid #fff;
+
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+/* =============================================================
+   FOOTER SECTION STYLES
+ ============================================================ */
+footer {
+    padding: 5px;
+
+    color: #fff;
+
+    font-size: 12px;
+
+    background-color: #3d3d3d;
+}
+
+    footer a, footer a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+/*==============================================
+    DASHBOARD  STYLES    
+ =============================================*/
+
+/* DASHBOARD ICONS */
+
+.bk-clr-one {
+    background-color: #B9B739;
+}
+
+.bk-clr-two {
+    background-color: #F94C4C;
+}
+
+.bk-clr-three {
+    background-color: #119c7e;
+}
+
+.bk-clr-four {
+    background-color: #b739b9;
+}
+
+.dashboard-div-icon {
+    height: 75px;
+    width: 75px;
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 50%;
+    -webkit-border-radius:50%;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.dashboard-div-wrapper {
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+    .dashboard-div-wrapper .progress {
+        height: 2px;
+    }
+
+/* NOTICE BOARD */
+
+
+.notice-board .panel {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+
+.notice-board ul {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.notice-board li {
+    padding: 10px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+    .notice-board li span {
+        margin-right: 10px;
+        border: 1px solid #DBDBDB;
+        padding: 5px;
+    }
+
+    .notice-board li a, li a:hover {
+        text-decoration: none;
+        color: #000;
+    }
+
+/* SOCIAL BUTTONS */
+.btn-social {
+    color: white;
+    opacity: 0.8;
+}
+
+    .btn-social:hover {
+        color: white;
+        opacity: 1;
+        text-decoration: none;
+    }
+
+.btn-facebook {
+    background-color: #3b5998;
+}
+
+.btn-twitter {
+    background-color: #00aced;
+}
+
+.btn-linkedin {
+    background-color: #0e76a8;
+}
+
+.btn-google {
+    background-color: #c32f10;
+}
+
+.containerMatch {
+    position: relative;
+    width: 100%;
+	height: auto;
+}
+
+.overlayMatch {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.containerMatch:hover .overlayMatch {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.textMatch {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.matchCompt {
+	font-size: 18px;
+	font-weight: 400;
+	color: #ccc;
+	padding: 0;
+	margin: 0;
+}
+
+.matchTeam {
+	font-size: 22px;
+	font-weight: 600;
+	color: #333;
+	padding-top: 0px;
+	margin-bottom: 5px;
+}
+
+.matchTime {
+	font-size: 22px;
+	font-weight: 600;
+	color: #ccc;
+	padding-top: 0px;
+}
+
+.video-container {
+
+position: relative;
+
+padding-bottom: 56.25%;
+
+padding-top: 0px;
+
+height: 0;
+
+overflow: hidden;
+
+z-index:0;
+
+}
+
+.video-container iframe,  
+
+.video-container object,
+
+.video-container video,
+
+.video-container embed {
+
+position: absolute;
+
+top: 0;
+
+left: 0;
+
+width: 100%;
+
+height: 100%;
+
+}
